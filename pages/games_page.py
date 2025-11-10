@@ -22,5 +22,5 @@ class GamesPage:
     @allure.step('Проверяем стор и игру, на которую ведет ссылка')
     def should_open_app_store(self):
         browser.should(have.url_containing('apps.apple.com'))
-        browser.element("svelte-1bm25t").should(have.text("Fishdom"))
+        browser.element("h1.svelte-1bm25t").should(have.text("Fishdom"))
         return self
