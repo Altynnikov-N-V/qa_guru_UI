@@ -20,21 +20,17 @@
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="20" width="20"> Запуск тестов локально
 
-1) Клонировать репозиторий: git clone https://github.com/ashurko/qa_guru_python_21_diploma_ui.git
+1) Клонировать репозиторий: git clone https://github.com/Altynnikov-N-V/qa_guru_UI.git
 2) Установить зависимости: pip install -r requirements.txt
 3) Запуск тестов с генерацией отчетов Allure: pytest --alluredir=reports/allure-results
 
 ##   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height="20" width="20"/> Создание сборки на удаленном сервере - Jenkins
 
 1) Авторизоваться в Jenkins
-2) Перейти в джобу https://jenkins.autotests.cloud/job/anton_shurko_diploma_UI/
+2) Перейти в джобу https://jenkins.autotests.cloud/job/NVA_final_ui/
 3) Для запуска тестов в Jenkins нажать "Build With Parameters"
 4) Выбрать необходимые параметры
 5) Нажать Run Build
-
-<p><img title="jenkins_build" src="data/logo/jenkins_flow1.png"></p>
-
-<p><img title="jenkins_build" src="data/logo/jenkins_flow2.png"></p>
 
 ## <img width="4%" title="allure" src="data/logo/allure_report.png"> Визуализация результатов (Allure Reports и Allure TestOps)
 
