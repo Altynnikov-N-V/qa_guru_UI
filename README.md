@@ -49,9 +49,3 @@
 ```bash
 allure serve reports/allure-results
 ```
-
-
-
-## <img width="4%" title="tg" src="data/logo/tg.png"> Интеграция с Telegram в Jenkins для автоматической отправки результатов тестового прогона через бота
-
-<p><img title="telegram" src="data/logo/report_tg.png"></p>
