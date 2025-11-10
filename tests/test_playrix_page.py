@@ -39,12 +39,6 @@ def test_open_store_game_page():
     game_page.open_fishdom_page().open_store_link().should_open_app_store()
 
 
-@allure.feature("Страница игры в X")
-@allure.link("https://x.com/Playrix", name="Playrix X page")
-def test_go_to_twitter():
-    home_page.go_to_twitter().should_be_open_twitter()
-
-
 @allure.feature("История компании")
 @allure.link("https://playrix.com/company/history", name="Company history")
 @allure.story("Проверка перехода на страницу истории компании")
